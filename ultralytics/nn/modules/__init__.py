@@ -61,6 +61,8 @@ from .block import (
 )
 from .conv import (
     CBAM,
+    ECAAttention,
+    CoordAtt,
     ChannelAttention,
     Concat,
     Conv,
